@@ -1,0 +1,22 @@
+# AI and Model Fine-Tuning
+transformers==4.40.0
+datasets==2.19.0
+peft==0.9.0
+accelerate==0.30.0
+torch==2.2.1
+gpt4all==2.0.0
+
+# Web Scraping
+beautifulsoup4==4.12.3
+requests==2.32.3
+playwright==1.49.1
+
+# Backend (Express.js API) - This is Node.js but keeping for completeness
+# express
+# cors
+# axios
+
+# Optional Libraries (if needed)
+scikit-learn==1.4.1.post1
+pandas==2.2.3
+numpy==2.2.1

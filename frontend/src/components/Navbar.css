@@ -1,0 +1,52 @@
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+  background: #007BFF; /* Primary color */
+  color: white;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+  background: #0056b3; /* Darker shade on hover */
+  border-radius: 5px;
+}
+
+/* Active Link Styling */
+.active-link {
+  color: #00ffcc;
+  border-bottom: 2px solid #00ffcc;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
